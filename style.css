@@ -5,7 +5,7 @@ body{
     text-align: center;
     color: #1b1a1a;
     margin: 0;
-    width: 100%;
+    
     
 
 }
@@ -17,10 +17,9 @@ body{
 }
 
 .header > h1{
-    font-size: 3.5em;
-     color: white;
-     line-height: 1.5;
-     margin-bottom: 0;
+    font-size: 4em;
+    color: white;
+    margin-bottom: 0;
 }
 
 .header > p{
@@ -67,9 +66,9 @@ li{
     
 }
 
-.bottom-section{
+.bottom-section > p{
     font-style: italic;
-    width: 545px;
+    max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: left;
     color: #ffff;
@@ -97,7 +96,7 @@ footer{
 }
 
 /* mediaquerry screen sizing*/
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
     html body{
         overflow-x: hidden;
     }
@@ -105,6 +104,11 @@ footer{
     
     .wrapper{
         margin: 0;
+    }
+
+    .header > h1{
+        font-size: 3.5em;
+        line-height: 1.2;
     }
     #img-caption{
         font-size: 1.5rem;
