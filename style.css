@@ -1,0 +1,112 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #1b1a1a;
+    margin: 0;
+    width: 100%;
+    
+
+}
+.wrapper{
+    margin: 25px 6px;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgb(138, 7, 7);
+}
+
+.header > h1{
+    font-size: 3.5em;
+     color: white;
+     line-height: 1.5;
+     margin-bottom: 0;
+}
+
+.header > p{
+    color: #c7c2c2;
+}
+
+#figure-img{
+    background-image: url(img/image\ 1\ css2.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgb(131, 20, 20);
+    padding: 10px;
+    margin: 0
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption{
+    margin: 15px 0 5px 0;
+    color: #ffffff;
+}
+
+.section > h3{
+    margin: 50px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+li{
+    margin: 15px 0;
+    
+}
+
+.bottom-section{
+    font-style: italic;
+    width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    color: #ffff;
+}
+
+
+.wrapper > h3{
+    color: #ffffff;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+a{
+    color: #4d8bbd;
+   
+}
+
+footer{
+    color: #dddcdc;
+    
+}
+
+/* mediaquerry screen sizing*/
+@media only screen and (max-width: 450px) {
+    html body{
+        overflow-x: hidden;
+    }
+   
+    
+    .wrapper{
+        margin: 0;
+    }
+    #img-caption{
+        font-size: 1.5rem;
+    }
+}
